@@ -7,13 +7,16 @@
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	</head>
 	<body>
+		<!--Gömmer tills färdigladdat-->
 		<div style="display:none" id="hideChild">
 			<div id="template">
 			</div>
+			<!--Laddar in panelen och skriver ut texten-->
 			<img src="../assets/panel.png" id="reg_panel">
 			<p id="sitter_t">Barnvakt</p>
 			<p id="homew_t">Läxhjälp</p>
 			<div class="register">
+				<!--Registrering forumlär inkl knappar, textfält och radio-->
 				<form action="../includes/registeruser.php" method="post">
 					<p id="reg_text">Registrera Dig</p>
 					<input id="user" type="text" name="name" placeholder="Namn" required="required"/>
@@ -29,6 +32,7 @@
 					<button id="reg_button_2" type="submit" name="submitReg" onclick="return check();" class="knapp">Registrera</button>	
 				</form>
 			</div>
+			<!--Laddar in template.html-->
 			<script>
 				$(function(){
 					$('#template').load('template.html');
