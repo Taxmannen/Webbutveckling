@@ -12,11 +12,13 @@ Kompis är en hemsida som går ut på att man sätta upp sig på arbetspass inom
 Är man intresserad utav att nyttja dessa tjänster kan man även gå in och boka dessa direkt via hemsidan. 
 
 Jag har använt mig utav följande: 
-HTML
-CSS(inkl mediaQuaries)
-Bootstrap(Borde använt det mer)
-jQuary
-AJAX
+<ul>
+  <li>HTML</li>
+  <li>CSS(inkl mediaQuaries)</li>
+  <li>Bootstrap(Borde använt det mer)</li>
+  <li>jQuary</li>
+  <li>AJAX</li>
+</ul>
 
 Hemsidan är främst utvecklad för datorer men jag har lagt till mediaquaries för att anpassa sidan
 för olika storlekar såsom mobiltelefoner och surfplattor så att hemsidan ska vara lättillgänglig för allmänheten. 
