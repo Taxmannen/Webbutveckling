@@ -13,10 +13,12 @@ if (isset($_SESSION['session_id'])){
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	</head>
 	<body>
+		<!--Gömmer tills färdigladdat-->
 		<div style="display:none" id="hideChild">
 			<div id="template">
 			</div>
 			<div id="container">
+				<!--Forumlär med allt om barnvakt-->
 				<form action="../includes/bookbabysitter.php" method="post">
 					<input id="namn_bokning" type="text" name="name" placeholder="Namn" required="required"/>
 					<select id="barn" name="children" placeholder="namn" required="required"> 
@@ -37,6 +39,7 @@ if (isset($_SESSION['session_id'])){
 					<button id="boka_hjälp" type="submit" name="book" class="knapp">Boka</button>
 				</form>
 			</div>
+			<!--Laddar in template.html-->
 			<script>
 				$(function(){
 					$('#template').load('template.html');
