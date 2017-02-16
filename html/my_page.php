@@ -14,16 +14,18 @@ if (isset($_SESSION['session_id'])){
 		<script src="../js/bootstrap.js"></script>
 	</head>
 	<body>
+		<!--Gömmer tills färdigladdat-->
 		<div style="display:none" id="hideChild">
 			<div id="template">
 		</div>
+			<!--Lägger till ändra knappen-->
 			<button id="change" class="btn">Ändra Uppgifter</button>
 			<div id="mina_bokningar">
 			</div>
 			<script>
 				$(function(){
-					$('#template').load('template.html');
-					$('#mina_bokningar').load('../includes/readbooking.php');
+					$('#template').load('template.html'); <!--Laddar in template.html-->
+					$('#mina_bokningar').load('../includes/readbooking.php'); <!--Laddar in readbooking.php-->
 				});
 			</script>
 		</div>
