@@ -31,7 +31,7 @@ if (isset($_POST['book'])) {
 		$_SESSION['bookobj'] = $_POST;
 
 		echo "<script type='text/javascript'>
-	   	document.location.href = '../html/my_page.html';
+	   	document.location.href = '../html/my_page.php';
 		</script>";
 	    exit;
 	}
