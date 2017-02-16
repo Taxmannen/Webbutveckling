@@ -7,11 +7,14 @@
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	</head>
 	<body>
+		<!--Gömmer tills färdigladdat-->
 		<div style="display:none" id="hideChild">
 			<div id="template">
 			</div>
 			<div class="login">
-				<form action="../includes/login.php" method="post">
+				<!-- Formulär med all info ang login-->
+				<form action="../includes/login.php" method="post"> 
+				<!-- När man trycker på submit så skickar den iväg informationen i formen name måste stämma ihop med php-->
 					<img src="../assets/panel.png" id="login_panel">
 					<p id="login_text"> Logga in</p>
 					<input id="login_name" type="text" name="email" placeholder="Mejl" required="required"/>
@@ -20,6 +23,7 @@
 				</form>
 			</div>
 			<button id="forgot_pass_button" class="knapp">Glömt Lösenord</button>
+			<!--Laddar in template.html-->
 			<script>
 				$(function(){
 					$('#template').load('template.html');
