@@ -1,7 +1,11 @@
 Webbutveckling
+
 Namn: Daniel Nordahl
+
 Klass: SJK16G Systemutvecklare Java
+
 Hemsida: http://kompis.zocomutbildning.se/
+
 Linkedin:https://se.linkedin.com/in/daniel-nordahl-2550a6138
 
 Kompis är en hemsida som går ut på att man sätta upp sig på arbetspass inom läxhjälp samt barnpassning. 
